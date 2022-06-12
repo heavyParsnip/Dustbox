@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dustbox</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script type="module" src="./scr/loader.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Dustbox</h1>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <canvas id="canvas" width="300" height="300"></canvas>
+                </div>
+                <div class="row">
+                    <button type="button" id="resetButton">Reset</button>
+                </div>
+            </div>
+            <div class="col" id="elementButtons">
+                <div class="row">
+                    <button type="button" id="sand" value="sand">Sand</button>
+                    <button type="button" id="water" value="water">Water</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="mud" value="mud">Mud</button>
+                    <button type="button" id="oil" value="oil">Oil</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="stone" value="stone">Stone</button>
+                    <button type="button" id="wood" value="wood">Wood</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="ice" value="ice">Ice</button>
+                    <button type="button" id="salt" value="salt">Salt</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="fire" value="fire">Fire</button>
+                    <button type="button" id="lava" value="lava">Lava</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="lightning" value="lightning">Lightning</button>
+                    <button type="button" id="steam" value="steam">Steam</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="wall" value="wall">Wall</button>
+                    <button type="button" id="glass" value="glass">Glass</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="empty" value="empty">Eraser</button>
+                </div>
+                <div class="row">
+                    <br>
+                </div>
+                <div class="row">
+                    <label for="brushSizeMenu">Brush Size:</label>
+                    <select id="brushSizeMenu">
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                      </select>
+                </div>
+                <div class="row">
+                    <label for="brushReplaceBox">Replace: </label>
+                    <input type="checkbox" id="brushReplaceBox">
+                </div>
+            </div>
+        </div>
+        <br>
+        <h4>Click to create the selected substance!</h4>
+        <h4>Press a button to set your element.</h4>
+    </main>
+</body>
+</html>

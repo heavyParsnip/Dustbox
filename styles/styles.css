@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+canvas{ 
+    border: 1px solid gray;
+    position: static;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    background-color: rgb(66, 39, 39);
+    color: rgb(141, 141, 141);
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+div > label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    margin: auto;
+    width: 1rem;
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row > button {
+    margin: 2px;
+    width: 6em;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: rgb(224,224,224);
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    transition-duration: 0.4s;
+}
+
+#elementButtons {
+    background-color: rgb(66, 39, 39);
+    color: rgb(141, 141, 141);
+}
+
+#resetButton {
+    margin-top: 1rem;
+    background-color: brown;
+}
+
+#sand {
+    background-color: rgb(170, 155, 136);
+}
+
+#water {
+    background-color: rgb(17, 17, 167);
+}
+
+#mud {
+    background-color: rgb(70, 58, 56);
+}
+
+#oil {
+    background-color: rgb(56, 8, 8);
+}
+
+#stone {
+    background-color: rgb(150, 150, 150);
+}
+
+#wood {
+    background-color: rgb(99, 60, 3);
+}
+
+#ice {
+    background-color: rgb(131, 175, 175);
+}
+
+#salt {
+    background-color: rgb(255, 255, 255);
+    color:rgb(200, 200, 200);
+}
+
+#fire {
+    background-color: rgb(228, 64, 15);
+}
+
+#lava {
+    background-color: rgb(243, 117, 0);
+}
+
+#lightning {
+    background-color: rgb(247, 242, 0);
+    color:rgb(148, 148, 148);
+}
+
+#steam {
+    background-color: rgb(200, 200, 200);
+    color:rgb(255, 255, 255);
+}
+
+#wall {
+    background-color: rgb(83, 83, 83);
+}
+
+#glass {
+    background-color: rgba(233, 233, 233, 128);
+    color: rgb(151, 151, 151);
+}
+
+#empty {
+    background-color: rgb(197, 48, 172);
+}
+
+.col {
+    flex: 1;
+    padding: 1em;
+    border: solid 6px rgb(51, 15, 29);
+}
+
+#controls {
+    width: 200%;
+    padding: 2em;
+}
+
+div > label {
+    padding-right: 0.5em;
+    font-size: 20px;
+    font-weight: 500;
+}
